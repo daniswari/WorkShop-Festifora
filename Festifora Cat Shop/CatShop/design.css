@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Outfit:wght@400;700&display=swap');
+
+h1,h2,h3,h4,h5,h6,nav li {
+    font-family: 'Fredoka One';
+}
+
+.clear {
+    clear: both;
+}
+
+*{
+    font-family: 'Outfit';
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    background: #EDC3EE;
+}
+
+h1{
+    color: #26215A;
+    font-size: 87px;
+    width:498px;
+    height: 274px;
+    margin-left: 208px;
+    margin-top: 130px;
+}
+
+header p{
+    color: #26215A;
+    font-size : 25px;
+    width: 450px;
+    height: 61px;
+    margin-left: 213px;
+    margin-top: -50px;
+}
+
+header img{
+    margin-top: -445px;
+    margin-left: 835px;
+    transform : rotate (4deg);
+}
+
+.button{
+    margin-top: 35px;
+    margin-left: 213px;
+    background-color: #8F8FDB;
+    border : none;
+    color : white;
+    padding :16px 60px;
+    border-radius : 40px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+nav{
+    background-color: #623181;
+    color : white;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 50px;
+    padding : 13px;
+}
+
+nav li {
+    flex-grow : 1;
+    list-style-type: none;
+}
+
+nav ul{
+    display : flex;
+    text-align: center;
+}
+
+#CAT_FOOD {
+    margin-top: 100px;
+    margin-left: 145px;
+}
+
+.makanan h2{
+    font-size: 55px;
+    width: 532px;
+    color: #623181;
+    text-align: center;
+}
+
+.makanan p{
+    margin-top: 16px;
+    margin-left: 38px;
+    font-size: 20px;
+    width: 462px;
+    text-align: center;
+}
+
+#CAT_FOOD .text {
+    float: right;
+    width: 75%
+}
+
+.food {
+    margin-left: 115px;
+}
+
+#TREATMENTS figure {
+    float: right;
+    width: 25%
+}
+
+#TREATMENTS .text {
+    float: left;
+    width: 75%
+}
+
+#TREATMENTS {
+    margin-top: 300px;
+    margin-right: 145px;
+}
+
+.treatment img {
+    margin-right: 100px;
+}
+
+.treatment h2{
+    font-size: 55px;
+    width: 532px;
+    margin-top: -150px;
+    color: #623181;
+    text-align: center;
+}
+
+.treatment p{
+    margin-bot: 16px;
+    margin-right: 38px;
+    font-size: 20px;
+    width: 462px;
+    text-align: center;
+}
